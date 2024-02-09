@@ -6,13 +6,13 @@ Powered by <span><a href="https://github.com/covalenthq/goldrush-kit">GoldRush K
 
 ## View live template
 
-<a href="https://goldrush-wallet-particle-network-demo.vercel.app/">https://goldrush-wallet-particle-network-demo.vercel.app</a>
+<a href="https://goldrush-particle-connect-wallet-demo.vercel.app/">https://goldrush-particle-connect-wallet-demo.vercel.app</a>
 
 ## One-click deploy
 
 Deploy your own Wallet UI template powered by GoldRush Kit and Particle Connect.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/covalenthq/goldrush-wallet-particle-network-demo&env=NEXT_PUBLIC_COVALENT_API_KEY&env=NEXT_PUBLIC_PARTICLE_PROJECT_ID&env=NEXT_PUBLIC_PARTICLE_CLIENT_KEY&env=NEXT_PUBLIC_PARTICLE_APP_ID&envDescription=Visit%20Covalent%20to%20sign%20up%20for%20an%20API%20key&envLink=https%3A%2F%2Fwww.covalenthq.com%2Fplatform%2Fauth%2Fregister%2F&)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/covalenthq/goldrush-particle-connect-wallet-demo&env=NEXT_PUBLIC_COVALENT_API_KEY&env=NEXT_PUBLIC_PARTICLE_PROJECT_ID&env=NEXT_PUBLIC_PARTICLE_CLIENT_KEY&env=NEXT_PUBLIC_PARTICLE_APP_ID&envDescription=Visit%20Covalent%20to%20sign%20up%20for%20an%20API%20key&envLink=https%3A%2F%2Fwww.covalenthq.com%2Fplatform%2Fauth%2Fregister%2F&)
 
 ## Local Setup
 
