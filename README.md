@@ -1,12 +1,12 @@
 <h1 align="center">Wallet UI Template using GoldRush Kit & Particle Connect</h1>
 
 <div align="center">
-Powered by <span><a href="https://github.com/covalenthq/goldrush-kit">GoldRush Kit.</a></span> Open-source. Customizable. 200+ Chains.
+Powered by <span><a href="https://github.com/covalenthq/goldrush-kit">GoldRush Kit</a></span> and  <span><a href="https://developers.particle.network/docs/particle-connect">Particle Connect</a></span>
 </div>
 
-## Ready-to-use customizable template
+## View live template
 
-<a href="https://goldrush-wallet-portfolio-ui.vercel.app/">View live template</a>
+<a href="https://goldrush-wallet-particle-network-demo.vercel.app/">https://goldrush-wallet-particle-network-demo.vercel.app</a>
 
 ## One-click deploy
 
