@@ -7,7 +7,7 @@ import { useContext, useEffect, useState } from "react"
 import { WalletContext } from "@/lib/store"
 import { CovalentClient } from "@covalenthq/client-sdk"
 import { COVALENT_API_KEY } from "@/lib/utils"
-import { useRouter } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { useToast } from "@/components/ui/use-toast"
 
 export default function IndexPage() {
@@ -16,6 +16,17 @@ export default function IndexPage() {
     const [busy, setBusy] = useState(false);
     const router = useRouter();
     const { toast } = useToast();
+    const searchParams = useSearchParams();
+    
+    useEffect(() => {
+        // Read the 'address' query parameter from the URL
+        if (searchParams !== null) {
+            const addressParam = searchParams.get('address') || "demo.eth";
+            setAddress(addressParam);
+        }
+        
+        // Update the state with the address from the query parameter, if it exists
+    }, [searchParams]);
 
     const handleResolvedAddress = async (e: any) => {
         e.preventDefault();
@@ -52,13 +63,12 @@ export default function IndexPage() {
                     GoldRush Wallet &amp; Portfolio UI
                 </h1>
                 <p className="max-w-[700px] text-lg text-muted-foreground">
-                    Accessible and customizable components that you can copy and paste
-                    into your apps. Free. Open Source. And Next.js 13 Ready.
+                    Explore your linked account or any other account.
                 </p>
                 <form onSubmit={handleResolvedAddress}>
                     <Flex direction="column" gap="2">
-                        <Label htmlFor="email">Wallet Address</Label>
-                        <Input type="input" id="address" placeholder="Wallet Address" value={address} onChange={(e) => {
+                        <Label htmlFor="email">Account</Label>
+                        <Input type="input" id="address" placeholder="Wallet address" value={address} onChange={(e) => {
                             setAddress(e.target.value)
                         }} />
                         <div>
