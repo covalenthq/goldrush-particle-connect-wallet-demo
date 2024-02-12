@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://www.covalenthq.com/products/goldrush/" target="_blank">
+      <img alt="Wallet UI Template using GoldRush Kit & Particle Connect" src="https://raw.githubusercontent.com/covalenthq/goldrush-particle-connect-wallet-demo/main/static/grk-particle-connect-wallet-banner.png" style="max-width: 100%;"/>
+  </a>
+</div>
+
 <h1 align="center">Wallet UI Template using GoldRush Kit & Particle Connect</h1>
 
 <div align="center">
